@@ -18,7 +18,7 @@ export default function Step2({ onBack, onSubmit }) {
             </Col>
 
             <Col sm={12} md={12} lg={12} className="mb-3">
-                <h1 className="">What are you more interested in</h1>
+                <h1 className="">What are you more interested in </h1>
                 <ButtonGroup className="mb-2">
                     <ToggleButton id="toggle-check" type="checkbox" variant="outline-secondary" checked={checked} value="1"
                         onChange={(e) => setChecked(e.currentTarget.checked)}>
