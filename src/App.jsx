@@ -10,14 +10,7 @@ function App() {
 
   return (
     <div className="App">
-        <Container>
-            <Row>
-                <Col className='app-wrapper'>
-                    <LandingPage />
-                </Col>
-            </Row>
-           
-        </Container>
+        <LandingPage />
     </div>
   )
 }
